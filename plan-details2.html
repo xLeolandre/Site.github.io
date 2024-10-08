@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalii Plan de Antrenament - Fitness și Sănătate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="about.html">Despre Noi</a></li>
+                <li><a href="plans.html">Planuri de Antrenament</a></li>
+                <li><a href="nutrition.html">Nutriție</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 style="text-shadow: -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+">Detalii Plan de Antrenament</h1>
+        <p style="text-shadow: -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+">Descoperă toate beneficiile și detaliile acestui plan de antrenament personalizat.</p>
+    </section>
+
+    <section class="plan-details">
+        <div class="plan-info">
+            <h2>Nume Plan: Putere și Progres</h2>
+            <p><strong>Durată:</strong> 10 săptămâni</p>
+            <p><strong>Frecvență:</strong> 4-5 antrenamente pe săptămână</p>
+            <p><strong>Obiectiv:</strong> Creșterea forței musculare și îmbunătățirea condiției fizice generale</p>
+            <p><strong>Descriere:</strong> Planul intermediar este destinat celor care au deja o bază solidă de antrenament și își doresc să progreseze către antrenamente mai intense. Acest program include exerciții cu greutăți moderate și avansate, cardio și antrenamente pentru rezistență. Se concentrează pe îmbunătățirea rezistenței musculare și cardiovasculare, fiind ideal pentru cei care vor să-și depășească limitele și să își îmbunătățească performanțele fizice.</p>
+            <p><strong>Antrenamente incluse:</strong> ridicări de greutăți, sprinturi, circuit training, exerciții complexe (genuflexiuni cu greutăți, îndreptări, tracțiuni).</p>
+            <p><strong>Preț:</strong> 129 RON</p>
+        </div>
+
+        <div class="payment-section">
+            <h2>Adaugă Cardul și Plătește</h2>
+            <form method="POST">
+                <label for="card-name">Nume pe Card</label>
+                <input type="text" id="card-name" name="card_name" placeholder="Introdu numele de pe card..." required>
+
+                <label for="card-number">Număr Card</label>
+                <input type="text" id="card-number" name="card_number" placeholder="Introdu numărul cardului..." required>
+
+                <label for="expiry">Data Expirării</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+                <button type="submit">Plătește Acum</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness și Sănătate. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
